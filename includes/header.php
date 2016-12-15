@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,6 +30,8 @@
     <![endif]-->
   </head>
 
+
+  
   <body>
   <!-- container section start -->
   <section id="container" class="">
@@ -41,7 +43,7 @@
             </div>
 
             <!--logo start-->
-            <a href="index.html" class="logo">ÇOMÜ <span class="lite">OBS</span></a>
+            <a href="index.php" class="logo">ÇOMÜ <span class="lite">OBS</span></a>
             <!--logo end-->
             
              
@@ -57,7 +59,7 @@
                         <ul class="dropdown-menu extended inbox">
                             <div class="notify-arrow notify-arrow-blue"></div>
                             <li>
-                                <p class="blue">You have 5 new messages</p>
+                                <p class="blue">Toplam 5 Duyuru Var</p>
                             </li>
                             <li>
                                 <a href="#">
@@ -126,10 +128,13 @@
                         <ul class="dropdown-menu extended logout">
                             <div class="log-arrow-up"></div>
                             <li class="eborder-top">
-                                <a href="#"><i class="icon_profile"></i> My Profile</a>
+                                <a href="?path=profil"><i class="icon_profile"></i> Öğrenci Profili</a>
+                            </li>
+                            <li class="eborder-top">
+                                <a href="?path=parola_degistir"><i class="icon_profile"></i> Parola Değiştir</a>
                             </li> 
                             <li>
-                                <a href="login.html"><i class="icon_key_alt"></i> Log Out</a>
+                                <a href="cikis.php"><i class="icon_key_alt"></i> Çıkış Yap</a>
                             </li> 
                         </ul>
                     </li>
@@ -137,99 +142,4 @@
                 </ul>
                 <!-- notificatoin dropdown end-->
             </div>
-      </header>      
-      <!--header end-->
-
-      <!--sidebar start-->
-      <aside>
-          <div id="sidebar"  class="nav-collapse ">
-              <!-- sidebar menu start-->
-              <ul class="sidebar-menu">                
-                  <li class="">
-                      <a class="" href="index.html">
-                          <i class="icon_house_alt"></i>
-                          <span>Dashboard</span>
-                      </a>
-                  </li>
-				  <li class="sub-menu">
-                      <a href="javascript:;" class="">
-                          <i class="icon_document_alt"></i>
-                          <span>Forms</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
-                      </a>
-                      <ul class="sub">
-                          <li><a class="" href="form_component.html">Form Elements</a></li>                          
-                          <li><a class="" href="form_validation.html">Form Validation</a></li>
-                      </ul>
-                  </li>       
-                  <li class="sub-menu">
-                      <a href="javascript:;" class="">
-                          <i class="icon_desktop"></i>
-                          <span>UI Fitures</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
-                      </a>
-                      <ul class="sub">
-                          <li><a class="" href="general.html">Components</a></li>
-                          <li><a class="" href="buttons.html">Buttons</a></li>
-                          <li><a class="" href="grids.html">Grids</a></li>
-                      </ul>
-                  </li>
-                  <li>
-                      <a class="" href="widgets.html">
-                          <i class="icon_genius"></i>
-                          <span>Widgets</span>
-                      </a>
-                  </li>
-                  <li>                     
-                      <a class="" href="chart-chartjs.html">
-                          <i class="icon_piechart"></i>
-                          <span>Charts</span>
-                          
-                      </a>
-                                         
-                  </li>
-                             
-                  <li class="sub-menu">
-                      <a href="javascript:;" class="">
-                          <i class="icon_table"></i>
-                          <span>Tables</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
-                      </a>
-                      <ul class="sub">
-                          <li><a class="" href="basic_table.html">Basic Table</a></li>
-                      </ul>
-                  </li>
-                  
-                  <li class="sub-menu ">
-                      <a href="javascript:;" class="">
-                          <i class="icon_documents_alt"></i>
-                          <span>Pages</span>
-                          <span class="menu-arrow arrow_carrot-right"></span>
-                      </a>
-                      <ul class="sub">                          
-                          <li><a class="" href="profile.html">Profile</a></li>
-                          <li><a class="" href="login.html"><span>Login Page</span></a></li>
-                          <li><a class="active" href="blank.html">Blank Page</a></li>
-                          <li><a class="" href="404.html">404 Error</a></li>
-                      </ul>
-                  </li>
-                  
-              </ul>
-              <!-- sidebar menu end-->
-          </div>
-      </aside>
-      <!--sidebar end-->
-
-      
-  <!-- container section end -->
-    <!-- javascripts -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- nice scroll -->
-    <script src="js/jquery.scrollTo.min.js"></script>
-    <script src="js/jquery.nicescroll.js" type="text/javascript"></script><!--custome script for all page-->
-    <script src="js/scripts.js"></script>
-
-
-  </body>
-</html>
+      </header> 
