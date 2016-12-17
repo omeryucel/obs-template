@@ -134,7 +134,7 @@
                                 <a href="?path=parola_degistir"><i class="icon_profile"></i> Parola Değiştir</a>
                             </li> 
                             <li>
-                                <a href="cikis.php"><i class="icon_key_alt"></i> Çıkış Yap</a>
+                                <a href="logout.php"><i class="icon_key_alt"></i> Çıkış Yap</a>
                             </li> 
                         </ul>
                     </li>
